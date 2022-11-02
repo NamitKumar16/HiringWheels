@@ -17,7 +17,7 @@ public class HiringWheelsApplication {
 	@Bean
 	CommandLineRunner init (InitService initService){
 		return args -> {
-			initService.start();
+//			initService.start();
 		};
 	}
 
